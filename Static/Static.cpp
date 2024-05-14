@@ -15,3 +15,8 @@ public:
 	}
 };
 
+int Mahasiswa::nim = 178;
+
+
+
+
