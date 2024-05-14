@@ -18,3 +18,13 @@ public:
 	Mahasiswa(string pnama) :nama(pnama) { setID(); }
 };
 
+void Mahasiswa::setID() {
+	id = ++nim;
+}
+
+void Mahasiswa::printAll() {
+	cout << "ID = " << id << endl;
+	cout << "Nama = " << nama << endl;
+	cout << endl;
+}
+
